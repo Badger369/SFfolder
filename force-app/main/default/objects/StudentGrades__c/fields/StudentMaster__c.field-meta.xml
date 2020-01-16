@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StudentMaster__c</fullName>
+    <description>Master control for student?</description>
+    <externalId>false</externalId>
+    <label>StudentMaster</label>
+    <referenceTo>StudentMaster__c</referenceTo>
+    <relationshipLabel>StudentGrades</relationshipLabel>
+    <relationshipName>StudentGrades</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
